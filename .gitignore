@@ -9,3 +9,16 @@ target
 *.iml
 out/
 .idea_modules/
+bin
+*~
+*~bak
+*-bak
+*.bak
+*-new
+*.rej
+*.orig
+.pydevproject
+*.pyc
+*.gpd.*
+*cpJar*
+dependency-tree.log
