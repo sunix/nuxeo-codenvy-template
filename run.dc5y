@@ -1,0 +1,12 @@
+FROM       quay.io/nuxeoio/nuxeo-base
+MAINTAINER CodeEnvy Dev
+
+RUN wget -q "http://www.nuxeo.org/static/latest-release/nuxeo,tomcat.zip,5.9.5" -O /tmp/nuxeo-distribution-tomcat.zip
+RUN unzip -q /tmp/nuxeo-distribution-tomcat.zip -d /tmp/
+RUN mv /tmp/nuxeo-cap-5.9.5-tomcat /var/lib/nuxeo/
+
+# copy the jar to nuxeo folder
+ADD $app$ /var/lib/nuxeo/nxserver/plugins/$app$
+
+CMD /var/lib/nuxeo/bin/nuxeoctl console
+ENV CODENVY_APP_PORT_8080_HTTP 8080
