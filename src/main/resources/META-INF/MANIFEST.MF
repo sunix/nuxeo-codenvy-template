@@ -7,5 +7,4 @@ Bundle-Vendor: Nuxeo
 Bundle-Version: 1.0.qualifier
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: sample
-Nuxeo-Component: OSGI-INF/org.nuxeo.sample.SampleOperation.xml,
- OSGI-INF/authentication-contrib.xml
+Nuxeo-Component: OSGI-INF/org.nuxeo.sample.SampleOperation.xml

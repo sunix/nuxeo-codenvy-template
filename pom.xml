@@ -87,25 +87,6 @@
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <version>1.7</version>
-        <executions>
-          <execution>
-            <id>grunt-build</id>
-            <phase>process-resources</phase>
-            <configuration>
-              <target>
-                <ant dir="${basedir}/src/main/yo" antfile="${basedir}/src/main/yo/build.xml" />
-              </target>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
         <version>2.3</version>
         <configuration>
