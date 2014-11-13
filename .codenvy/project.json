@@ -1,1 +1,1 @@
-{"attributes":{"nuxeo_template":["nuxeo_template"]},"builder":"maven","projectTypeId":"nuxeo","builderEnvironmentConfigurations":{},"runnerEnvironmentConfigurations":{}}
+{"builders":{"default":"maven"},"runners":{"configs":{"project://nuxeo":{"variables":{},"ram":2048,"options":{}}},"default":"project://nuxeo"},"type":"maven","attributes":{"language":["java"]}}
