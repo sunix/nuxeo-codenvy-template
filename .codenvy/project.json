@@ -1,1 +1,21 @@
-{"builders":{"default":"maven"},"runners":{"configs":{"project://nuxeo":{"variables":{},"ram":2048,"options":{}}},"default":"project://nuxeo"},"type":"maven","attributes":{"language":["java"]}}
+{
+  "builders": {
+    "default": "maven"
+  },
+  "runners": {
+    "configs": {
+      "project://nuxeo": {
+        "variables": {},
+        "ram": 2048,
+        "options": {}
+      }
+    },
+    "default": "project://nuxeo"
+  },
+  "type": "maven",
+  "attributes": {
+    "language": [
+      "java"
+    ]
+  }
+}
