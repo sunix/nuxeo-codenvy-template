@@ -14,7 +14,7 @@ import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 /**
- * This test deplos Nuxeo in a Jetty instance avaiable on port 18080. You can
+ * This test deploys Nuxeo in a Jetty instance available on port 18080. You can
  * test it easily using the automation client.
  */
 @RunWith(FeaturesRunner.class)
