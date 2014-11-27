@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.nuxeo.ecm.automation.client.Session;
 import org.nuxeo.ecm.automation.client.model.Documents;
-import org.nuxeo.ecm.automation.test.RestFeature;
+import org.nuxeo.ecm.automation.test.AutomationFeature;
 import org.nuxeo.runtime.test.runner.Features;
 import org.nuxeo.runtime.test.runner.FeaturesRunner;
 import org.nuxeo.runtime.test.runner.Jetty;
@@ -18,7 +18,7 @@ import static org.junit.Assert.assertTrue;
  * test it easily using the automation client.
  */
 @RunWith(FeaturesRunner.class)
-@Features(RestFeature.class)
+@Features(AutomationFeature.class)
 @Jetty(port = 18080)
 public class SampleTest {
 
