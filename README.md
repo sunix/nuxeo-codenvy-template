@@ -10,6 +10,8 @@ It provides:
 This project is an on-going project, supported by Nuxeo.
 
 ## Resources
+### Documentation
+The documentation for the whole Nuxeo Codenvy plug-in is available in our Documentation Center: http://doc.nuxeo.com/x/5Bk5AQ
 ### Following Project QA Status
 Follow the project build status on http://qa.nuxeo.org/jenkins/job/nuxeo-codenvy-template/
 ### Reporting Issues 
